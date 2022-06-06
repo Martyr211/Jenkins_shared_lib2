@@ -1,7 +1,7 @@
 def call(){
    def set_test = "tesing point of time"
    sh "echo test 2 shared lib"
-   return "${set_test}"
+   println "${set_test}"
 }
 // def call(){
 //    sh ' mkdir ./target'
