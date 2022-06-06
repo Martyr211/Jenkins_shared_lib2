@@ -1,5 +1,5 @@
 def call (sample){
-    if (test_flag) {
+    if (sample) {
         println("Conditional statement Worked")
     }
     else {
