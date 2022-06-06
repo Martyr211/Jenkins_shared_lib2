@@ -1,7 +1,9 @@
+
 def call(){
    def set_test = "tesing point of time"
    sh "echo test 2 shared lib"
    println "${set_test}"
+   cond_loop_test()
 }
 
 // def call(){
