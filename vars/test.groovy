@@ -5,7 +5,7 @@
 // }
 
 def call(){
-   if(True) {
+   if('True') {
       test {
          sh ' mkdir ./target'
          sh "echo 'docker-build-list.yml file  archieve test' > ./target/docker-build-list.yml"
